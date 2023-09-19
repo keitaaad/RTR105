@@ -39,6 +39,7 @@ cd (uz sākumu)
 echo La-la-la (vienkārši nosaukt)
 mv CDE/abc.txt CDE/abc1.txt (pārsaukt vai pārvietot mapi)
 ```
+## 3.noidarbības "atziņas"
 
 
 
