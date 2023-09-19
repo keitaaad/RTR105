@@ -1,0 +1,49 @@
+   when git
+   man git
+   git clone https://github.com/keitaaad/RTR1050
+   ls -lt
+   git clone https://github.com/keitaaad/RTR105
+   ls -lt
+   git clone https://github.com/keitaaad/RTR105_copy
+   ls -lt
+   pwd
+   cd . RTR105
+   ls -lt
+   pwd
+   cd ~/RTR105
+   whoami
+   ls -l
+   ls -la
+   pwd
+   exdump -C config
+   lt
+   cd ..
+   ~/RTR105 history > history_20230919_Class_04.txt
+   ls
+   ls -lt
+   pwd
+   ls -lt
+   ..cd
+   history
+   cs ~/RTR105
+   cd ~/RTR105
+   nano
+   chmod 754 git-upload
+   cat git upload
+   pwd
+   ls -lt
+   PATH=$PATH:~/RTR105/
+   echo $PATH
+   git-upload
+   cd ..
+   ls -lta
+   nano git-upload
+   cd tilde
+   ls -lt
+   cat git_upload
+   write:packages
+   Upload packages to GitHub Package Registry
+   cat bash.bin_upload
+   ls -lt
+   history
+  
