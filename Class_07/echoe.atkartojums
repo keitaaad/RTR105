@@ -1,0 +1,3 @@
+echo "Ievadi savu vārdu: \c"
+read name
+echo "Čau, $name"

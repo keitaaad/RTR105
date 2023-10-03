@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main ()
+{
+  char str [80];
+  int i;
+
+  printf ("Ievadi savu vārdu: ");
+  scanf ("%79s",str);  
+  printf ("Kāds ir tavs vecums: ");
+  scanf ("%d",&i);
+  printf ("Mr. %s , %d gadu vecs.\n",str,i);
+  
+  return 0;
