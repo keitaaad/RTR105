@@ -1,13 +1,10 @@
 #!/bin/bash
 
-# Ask the user to insert two numbers.
-echo "Ievadiet pirmo skaitli: "
-read first_number
-echo "Ievadiet otro skaitli: "
-read second_number
+read -p "Ievadi pirmo skaitli (400000): " pirmais_skaitlis
 
-# Calculate the multiplication operation result.
-result=$((first_number * second_number))
+read -p "Ievadi orto skaitli (100000): " otrais_skaitlis
 
-# Output the multiplication operation result.
-echo "Rezultāts ir  $result"
+result=$((pirmais_skaitlis * otrais_skaitlis))
+
+echo "Rezultāts ir: $result"
+
