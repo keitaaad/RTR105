@@ -34,19 +34,19 @@ int main() {
         if (decimalNumber < 0 || decimalNumber != static_cast<char>(decimalNumber)) {
             std::cerr << "Faktoriālu nevar apreķināt: jūs ievadījāt vai nu negatīvu skaitli vai sakitli, kas nav vesels.\n";
         } else {
-            std::cout << "Factorial: " << calculateFactorial(static_cast<char>(decimalNumber)) << "\n";
+            std::cout << "Faktoriāls: " << calculateFactorial(static_cast<char>(decimalNumber)) << "\n";
         }
     } else if (dataType == "int") {
         if (decimalNumber < 0 || decimalNumber != static_cast<int>(decimalNumber)) {
             std::cerr << "Faktoriālu nevar apreķināt: jūs ievadījāt vai nu negatīvu skaitli vai sakitli, kas nav vesels>.\n";
         } else {
-            std::cout << "Factorial: " << calculateFactorial(static_cast<int>(decimalNumber)) << "\n";
+            std::cout << "Faktoriāls: " << calculateFactorial(static_cast<int>(decimalNumber)) << "\n";
         }
     } else if (dataType == "long long") {
         if (decimalNumber < 0 || decimalNumber != static_cast<long long>(decimalNumber)) {
             std::cerr << "Faktoriālu nevar apreķināt: jūs ievadījāt vai nu negatīvu skaitli vai sakitli, kas nav vesels>.\n";
         } else {
-            std::cout << "Factorial: " << calculateFactorial(static_cast<long long>(decimalNumber)) << "\n";
+            std::cout << "Faktoriāls: " << calculateFactorial(static_cast<long long>(decimalNumber)) << "\n";
         }
     } else {
         std::cerr << "Jūs ievadījāt nederīgu datu tipu.\n";
